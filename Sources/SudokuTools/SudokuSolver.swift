@@ -9,6 +9,8 @@ import Foundation
 
 public class SudokuSolver {
     
+    public init() {}
+    
     public func solve(_ cells: [[Int?]]) throws -> [[Int]] {
         
         guard let board = SudokuBoard(cells: cells) else {
