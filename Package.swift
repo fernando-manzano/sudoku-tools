@@ -6,10 +6,9 @@ let package = Package(
     platforms: [
         .macOS(.v10_13),
         .macCatalyst(.v13),
-        .iOS(.v11),
-        .watchOS(.v4),
-        .tvOS(.v11),
-        .driverKit(.v19)
+        .iOS(.v13),
+        .watchOS(.v6),
+        .tvOS(.v13)
     ],
     products: [
         .library(
