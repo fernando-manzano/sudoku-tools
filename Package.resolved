@@ -26,15 +26,6 @@
         "revision" : "b7f6c49acdb247e3158198c5448b38c3cc595533",
         "version" : "11.2.1"
       }
-    },
-    {
-      "identity" : "quick",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/Quick/Quick.git",
-      "state" : {
-        "revision" : "16910e406be96e08923918315388c3e989deac9e",
-        "version" : "6.1.0"
-      }
     }
   ],
   "version" : 2

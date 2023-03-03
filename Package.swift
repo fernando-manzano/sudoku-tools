@@ -16,8 +16,7 @@ let package = Package(
             targets: ["SudokuTools"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "11.2.1")),
-        .package(url: "https://github.com/Quick/Quick.git", .upToNextMajor(from: "6.1.0"))
+        .package(url: "https://github.com/Quick/Nimble.git", .upToNextMajor(from: "11.2.1"))
     ],
     targets: [
         .target(
@@ -25,6 +24,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "SudokuToolsTests",
-            dependencies: ["SudokuTools", "Nimble", "Quick"]),
+            dependencies: ["SudokuTools", "Nimble"]),
     ]
 )
